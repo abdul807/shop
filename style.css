@@ -323,27 +323,54 @@ font-weight: normal;
     text-align: right;
 }
 
+ 
+
+.header{
+
+    /* position: absolute;
+    width: 1440px;
+    height: 58px;
+    left: 0px;
+    top: 0px; */
+    display: flex;
+    justify-content: space-between;
+    
+    background: #FFFFFF;
+}
 
 
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
-    /* width: 19px;
-  height: 19px; */
+.img-container{
+    display: flex;
+    justify-content: space-around;
+}
 
-/* 
-font-weight: 400;
-font-size: 16px;
-line-height: 19px; */
-/* identical to box height */
+/*
 
-/* display: flex;
-align-items: center;
+.logo{
+    
+position: absolute;
+width: 130px;
+height: 36px;
+left: 35px;
+top: 11px;
 
-color: #78757A; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 36px;
 
 
-/* Inside auto layout */
+text-align: center;
 
-/* flex: none;
-order: 1;
-flex-grow: 0; */
+
+color: #0085FF;
+}
+ */
