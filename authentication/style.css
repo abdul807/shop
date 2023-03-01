@@ -155,6 +155,7 @@ width: 87px;
 height: 24px;
 left: 35px;
 top: 17px;
+text-decoration: none;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -248,4 +249,107 @@ cursor: pointer;
 
 .reset-background{
     background: #e5e0e0;
+}
+
+.new{
+    position: absolute;
+width: 101px;
+height: 21px;
+left: 499px;
+top: 269px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #222222;
+}
+
+
+.newpass{
+    position: absolute;
+width: 478px;
+height: 58px;
+left: 481px;
+top: 300px;
+padding: 10px;
+
+/* White */
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+
+.confirm{
+    position: absolute;
+width: 127px;
+height: 21px;
+left: 499px;
+top: 368px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #222222;
+}
+
+.conpass{
+    position: absolute;
+width: 478px;
+height: 58px;
+left: 481px;
+top: 399px;
+padding: 10px;
+
+/* White */
+
+background: #FFFFFF;
+/* Confirm */
+
+border: 1px solid #62EA5F;
+border-radius: 8px;
+}
+
+
+.submit{
+    position: absolute;
+width: 229px;
+height: 46px;
+left: 606px;
+top: 493px;
+
+/* Primary */
+
+background: #0085FF;
+border-radius: 8px;
+}
+
+h2{
+    position: absolute;
+width: 358px;
+height: 72px;
+left: 541px;
+top: 185px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0085FF;
+
 }
